@@ -1,0 +1,13 @@
+name = "cf-pages-test"
+main = "src/worker.js"
+compatibility_date = "2026-04-21"
+
+[assets]
+directory = "public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "apitest_bind"
+database_name = "apitest"
+# 来自你截图里的 UUID 前缀；请在 Cloudflare 控制台复制完整 UUID 覆盖此值。
+database_id = "2dfcaa0c-1045-4b34-a6e0-REPLACE_WITH_FULL_UUID"
